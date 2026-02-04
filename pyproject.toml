@@ -1,0 +1,18 @@
+[project]
+name = "backtest-engine"
+version = "0.1.0"
+description = "A lightweight, vectorized backtesting engine for systematic trading strategies"
+authors = [
+  { name = "Your Name", email = "you@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
